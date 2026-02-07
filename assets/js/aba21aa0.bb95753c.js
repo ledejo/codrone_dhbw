@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkcodrone_dhbw=globalThis.webpackChunkcodrone_dhbw||[]).push([[5742],{7093(e){e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkcodrone_dhbw=globalThis.webpackChunkcodrone_dhbw||[]).push([[1903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/codrone_dhbw/blog","blogTitle":"Blog","authorsListPath":"/codrone_dhbw/blog/authors"}')}}]);
