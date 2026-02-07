@@ -10,25 +10,24 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
-
+  title: 'CoDrone DHBW Ravensburg',
+  tagline: 'Progammieren lernen mit Drohnen',
+  //favicon: 'img/favicon.ico',
+  favicon: 'img/drone.png',
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
-
+  url: 'https://ledejo.github.io',
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/codrone_dhbw/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ledejo', // Usually your GitHub org/user name.
+  projectName: 'codrone_dhbw', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -83,21 +82,21 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'CoDrone DHBW Ravensburg',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'CoDrone DHBW Ravensburg Logo',
+          src: 'img/drone.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Level 1',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ledejo/codrone_dhbw',
             label: 'GitHub',
             position: 'right',
           },
@@ -110,7 +109,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Level 1',
                 to: '/docs/intro',
               },
             ],
