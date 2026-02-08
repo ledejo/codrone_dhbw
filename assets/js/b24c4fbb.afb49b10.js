@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkcodrone_dhbw=globalThis.webpackChunkcodrone_dhbw||[]).push([[9593],{6457(o){o.exports=JSON.parse('{"metadata":{"permalink":"/codrone_dhbw/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
