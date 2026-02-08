@@ -1,47 +1,40 @@
 ---
 sidebar_position: 1
 ---
+# Willkommen zum CoDrone EDU Pilotentraining
+Wir nutzen die CoDrone EDU, eine professionelle Lerndrohne, die mit Sensoren vollgepackt ist um programmieren zu lernen
 
-# Tutorial Intro
+## Was kann die CoDrone?
+Die Drohne ist nicht nur ein Spielzeug, sondern ein fliegender Computer. Sie verfügt über:
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**7 Sensoren**: (Farbe, Abstand, Infrarot, Gyroskop, etc.)
 
-## Getting Started
+**LED-Display**: Für visuelles Feedback.
 
-Get started by **creating a new site**.
+**Stabilität**: Sie kann die Höhe automatisch halten, was das Programmieren für Anfänger sicher macht.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**Wichtigste Regel**: Wenn die Drohne mal "ausbricht" – Finger weg von den Propellern! In der Web-IDE gibt es einen Notfall-Aus Knopf. **Die Drohne bitte niemals mit den Händen fangen!**
 
-### What you'll need
+## Crashkurs: Python in 2 Minuten
+Wir programmieren in der Programmiersprache Python. Das ist eine der meistgenutzten Programmiersprachen der Welt.
+Python an sich ist schon sehr intuitiv, die Web-IDE von Robolink setzt für die ersten Schritte praktisch kein Wissen voraus.
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**Achte nur auf diese drei Dinge:**
 
-## Generate a new site
+**Die Library laden:** Jedes Programm beginnt mit from `codrone_edu.drone import *`. Das sagt dem Computer, dass er die Drohnen-Befehle laden soll.
 
-Generate a new Docusaurus site using the **classic template**.
+**Klammern nicht vergessen:** Befehle sehen immer so aus: `drone.takeoff()`. Die Klammern am Ende sagen Python: "Tu es jetzt sofort!".
 
-The classic template will automatically be added to your project after you run the command:
+**Genauigkeit:** Python verzeiht keine Tippfehler. Drone ist nicht das Gleiche wie drone.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Euer Werkzeug: Die Web-IDE
+Wir arbeiten komplett im Browser. Ihr müsst nichts installieren.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Öffnet die Robolink Web-IDE.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Verbindet eure Drohne über den Button **"Connect"** unten links.
 
-## Start your site
+Klickt auf "Run", um eure Mission zu starten.
 
-Run the development server:
+Für eine kontrollierte Landung nutzt bitte entweder den Befehl drone.land() im Code oder den Button "Land" oben in der Web-IDE. Drückt ihr den Button **Stop** gehen die Rotoren aus und die Drohne stürzt ab. Sie ist zwar Robust und geht nicht sofort kaputt, nutzt diese Funktion aber wirklich nur im Notfall!
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
