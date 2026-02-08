@@ -92,7 +92,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Level 1',
+            label: 'Aufgaben',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

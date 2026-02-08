@@ -1,0 +1,8 @@
+{
+  "label": "Aufgabe 2",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Aufgabe 2: Der erste Flug! Programmiert die Drohne so, dass sie abhebt, ein paar Sekunden in der Luft bleibt und dann wieder landet. Viel Erfolg!"
+  }
+}
