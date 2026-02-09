@@ -5,7 +5,7 @@ sidebar_position: 1
 # Final Challenge: Präzisionsflug
 
 
-In dieser letzten Aufgabe bestimmt ihr wohin die Drohne fliegt. Es geht hierbei um Präzision und Schnelligkeit.
+In dieser letzten Aufgabe bestimmt ihr wohin die Drohne fliegt. Es geht hierbei um Präzision und Schnelligkeit. Stoppt die Zeit und vergleicht euch mit den anderen Teams. Um den Schwierigkeitsgrad zu erhöhen könnt ihr das Ziel auch nicht direkt in die Startrichtung stellen, sondern etwas versetzt. 
 
 ## Die Aufgabe: "Punktlandung"
 Platziert in ca. 2 Metern Entfernung ein Ziel (z. B. ein Blatt Papier). Eure Drohne soll:
@@ -28,7 +28,7 @@ Beispiel für euren Code:
 from codrone_edu.drone import *
 
 drone = Drone()
-drone.pair()
+drone.connect()
 drone.takeoff()
 
 # 1. Vorwärts fliegen (Anpassen: Power und Zeit)
@@ -43,7 +43,7 @@ drone.go("forward", 30, 1.0)
 
 # 5. Landung auf dem Zielpunkt
 drone.land()
-drone.close()
+drone.disconnect()
 ```
 
 ### 💡 Tipps für den Sieg
