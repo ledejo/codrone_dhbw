@@ -2,11 +2,8 @@
 sidebar_position: 1
 ---
 
-# Aufgabe
-
-
-## Der erste Flug
-Jetzt wird es ernst: Wir verlassen den Boden! In dieser Mission lernst du, wie du die Motoren startest, die Schwebehöhe hältst und die Drohne sicher wieder landest.
+# Der erste Flug
+Jetzt wird es ernst: Wir verlassen den Boden! In dieser Aufgabe lernst du, wie du die Motoren startest, die Schwebehöhe hältst und die Drohne sicher wieder landest.
 
 ## ⚠️ **Sicherheits-Check**
 
@@ -16,7 +13,7 @@ Jetzt wird es ernst: Wir verlassen den Boden! In dieser Mission lernst du, wie d
 
 **Startplatz**: Steht die Drohne auf einer ebenen Fläche?
 
-**Not-Aus**: Erinnert euch – die Leertaste stoppt die Motoren sofort!
+**Not-Aus**: Erinnert euch – die STOP Taste in der Web-IDE stoppt die Motoren sofort!
 
 ## Aufgabenstellung
 Eure Drohne soll ein einfaches Start- und Landemanöver absolvieren:

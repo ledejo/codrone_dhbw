@@ -6,11 +6,11 @@ sidebar_position: 2
 from codrone_edu.drone import *
 
 drone = Drone()
-drone.pair()
+drone.connect()
 
 drone.takeoff()
 
-# 1. Sinken: "down" mit 30% Power für 1 Sekunden
+# 1. Sinken: "down" mit 50% Power für 1 Sekunden
 drone.go("down", 50, 1)
 
 # 2. Kurzes Schweben für 1 Sekunde
@@ -23,6 +23,6 @@ drone.go("up", 50, 1)
 drone.hover(1)
 
 drone.land()
-drone.close()
+drone.disconnect()
 ```
 

@@ -2,10 +2,10 @@
 sidebar_position: 1
 ---
 
-# Aufgabe
 
-## Der Fahrstuhl
-In dieser Aufgabe bringen wir Dynamik in den Flug! Ein echtes Fluggerät muss seine Höhe präzise anpassen können. Wir programmieren einen "Fahrstuhl": Die Drohne soll sich wie ein Fahrstuhl auf und ab bewegen.
+
+# Das Jo-Jo
+In dieser Aufgabe bringen wir Dynamik in den Flug! Ein echtes Fluggerät muss seine Höhe präzise anpassen können. Wir programmieren ein "Jo-Jo": Die Drohne soll sich in der Luft auf und ab bewegen.
 
 # Aufgabenstellung
 

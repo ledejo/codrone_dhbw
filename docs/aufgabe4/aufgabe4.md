@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
 ---
-# Aufgabe 4: Flugmanöver & Akrobatik
+# Flugmanöver & Akrobatik
 
-Jetzt wird es Zeit für echte Flugfiguren! Die CoDrone EDU hat eingebaute Programme für geometrische Formen und Stunts. Ihr müsst nicht alles selbst programmieren sondern könnte diese einfach nutzen 
+Jetzt wird es Zeit für echte Flugfiguren! Die CoDrone EDU hat eingebaute Programme für geometrische Formen und Stunts. Ihr müsst nicht alles selbst programmieren sondern könnte diese einfach nutzen.
 
 ## Die Aufgabenstellung
 Sucht euch eine der folgenden Figuren aus und bringt eure Drohne zum Tanzen:
@@ -39,3 +39,4 @@ time.sleep(4)  # mindestens 4 Sekunden Pause nach einem Flip.
 drone.land()
 drone.close()
 ```
+

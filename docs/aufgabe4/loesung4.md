@@ -8,14 +8,14 @@ sidebar_position: 2
 from codrone_edu.drone import *
 
 drone = Drone()
-drone.pair()
+drone.connect()
 drone.takeoff()
 
 # Fliegt ein Quadrat
 drone.square()
 
 drone.land()
-drone.close()
+drone.disconnect()
 ```
 
 ## Kreis
@@ -23,14 +23,14 @@ drone.close()
 from codrone_edu.drone import *
 
 drone = Drone()
-drone.pair()
+drone.connect()
 drone.takeoff()
 
 # Fliegt einen Kreis
 drone.circle()
 
 drone.land()
-drone.close()
+drone.disconnect()
 ```
 
 ## Dreieck
@@ -38,14 +38,14 @@ drone.close()
 from codrone_edu.drone import *
 
 drone = Drone()
-drone.pair()
+drone.connect()
 drone.takeoff()
 
-# Fliegt einen Kreis
+# Fliegt ein Dreieck
 drone.triangle()
 
 drone.land()
-drone.close()
+drone.disconnect()
 ```
 
 
@@ -55,7 +55,7 @@ from codrone_edu.drone import *
 import time
 
 drone = Drone()
-drone.pair()
+drone.connect()
 drone.takeoff()
 
 drone.hover(3) # kurz stabilisieren
@@ -63,5 +63,5 @@ drone.flip("back")
 time.sleep(4)  # mindestens 4 Sekunden Pause nach einem Flip.
 
 drone.land()
-drone.close()
+drone.disconnect()
 ```
