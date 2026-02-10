@@ -16,8 +16,8 @@ drone.go("down", 50, 1)
 # 2. Kurzes Schweben für 1 Sekunde
 drone.hover(1)
 
-# 3. Aufsteigen: "up" mit 50% Power für 1 Sekunden
-drone.go("up", 50, 1)
+# 3. Aufsteigen: "up" mit 70% Power für 1.5 Sekunden
+drone.go("up", 70, 1.5)
 
 # 4. Kurzes Schweben für 1 Sekunde
 drone.hover(1)
