@@ -1,7 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 ---
-# Lösung
+
+# Lösung: Das Jo-Jo
+
 ```python
 from codrone_edu.drone import *
 
@@ -10,19 +12,11 @@ drone.connect()
 
 drone.takeoff()
 
-# 1. Sinken: "down" mit 50% Power für 1 Sekunden
 drone.go("down", 50, 1)
-
-# 2. Kurzes Schweben für 1 Sekunde
 drone.hover(1)
-
-# 3. Aufsteigen: "up" mit 70% Power für 1.5 Sekunden
 drone.go("up", 70, 1.5)
-
-# 4. Kurzes Schweben für 1 Sekunde
 drone.hover(1)
 
 drone.land()
 drone.disconnect()
 ```
-
