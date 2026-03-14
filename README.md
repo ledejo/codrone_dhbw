@@ -41,7 +41,7 @@ Das Projekt verfolgt drei didaktische Ziele:
 ## Technischer Rahmen
 
 Die Website basiert auf Docusaurus und wird über GitHub Pages veröffentlicht.
-Alle Workshop-Aufgaben liegen als Markdown-Dokumente im Repository und koennen
+Alle Workshop-Aufgaben liegen als Markdown-Dokumente im Repository und können
 dadurch einfach gepflegt, erweitert und versioniert werden.
 
 ## Kurzfazit
