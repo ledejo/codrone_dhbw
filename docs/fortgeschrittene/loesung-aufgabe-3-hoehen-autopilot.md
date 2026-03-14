@@ -2,7 +2,7 @@
 sidebar_position: 13
 ---
 
-# Lösung: Hoehen-Autopilot
+# Lösung: Höhen-Autopilot
 
 ```python
 from codrone_edu.drone import *

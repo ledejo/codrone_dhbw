@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Hoehen-Autopilot
+# Höhen-Autopilot
 
 Die Drohne soll ihre Höhe aktiv mit dem Bottom-Range-Sensor halten.
 
