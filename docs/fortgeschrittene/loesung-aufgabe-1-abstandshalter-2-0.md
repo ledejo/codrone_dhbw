@@ -2,7 +2,7 @@
 sidebar_position: 11
 ---
 
-# Lösung: Abstandshalter 2.0
+# Lösung: Abstandshalter
 
 ```python
 from codrone_edu.drone import *

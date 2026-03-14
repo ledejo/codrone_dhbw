@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Abstandshalter 2.0
+# Abstandshalter
 
 Die Drohne soll mit dem Front-Range-Sensor einen konstanten Abstand zu einem Hindernis halten.
 

@@ -1,41 +1,51 @@
-# Website
+# CoDrone DHBW Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Live-Seite: https://ledejo.github.io/codrone_dhbw/
 
-## Installation
+## Projektbeschreibung
 
-```bash
-yarn
-```
+Diese Website ist eine digitale Lernplattform für den CoDrone-Workshop an der DHBW Ravensburg.
+Sie wurde erstellt, um den gesamten Lernprozess rund um die CoDrone EDU strukturiert abzubilden:
+von den ersten Schritten beim Verbinden der Drohne bis hin zu fortgeschrittenen,
+sensorbasierten Flugaufgaben mit Telemetrie und Praezisionssteuerung.
 
-## Local Development
+Im Mittelpunkt steht praxisnahes Lernen mit Python. Die Teilnehmenden arbeiten nicht nur
+mit theoretischen Konzepten, sondern setzen jedes Thema direkt als Flugprogramm um.
+So entsteht ein klarer Bezug zwischen Code, Sensorik und realem Verhalten der Drohne.
 
-```bash
-yarn start
-```
+## Aufbau der Inhalte
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Die Inhalte sind in zwei klar getrennte Lernbereiche gegliedert:
 
-## Build
+- Einsteiger:
+	Grundlagen wie Start/Landung, einfache Flugmanoever, erste Steuerlogik und
+	ein zugänglicher Einstieg in die Web-IDE von Robolink.
+- Fortgeschrittene:
+	Anspruchsvollere Aufgaben mit Fokus auf Sensoren, z. B. Abstandshaltung,
+	Hinderniserkennung, Hoehenregelung, Praezisionsnavigation,
+	Farberkennung bei Landung sowie Sensorfusion und Telemetrie.
 
-```bash
-yarn build
-```
+Jede Aufgabe ist zusammen mit einer passenden Lösung in derselben Navigationshierarchie
+abgelegt. Dadurch können Teilnehmende zuerst selbst arbeiten und bei Bedarf gezielt
+zur Loesung wechseln.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Ziel des Projekts
 
-## Deployment
+Das Projekt verfolgt drei didaktische Ziele:
 
-Using SSH:
+- Niedrige Einstiegshuerde fuer Lernende ohne Vorkenntnisse.
+- Saubere Progression vom einfachen zum komplexen Problem.
+- Verständnis für reale Robotik-Themen wie Regelung, Sensorinterpretation
+	und sichere Flugabläufe.
 
-```bash
-USE_SSH=true yarn deploy
-```
+## Technischer Rahmen
 
-Not using SSH:
+Die Website basiert auf Docusaurus und wird über GitHub Pages veröffentlicht.
+Alle Workshop-Aufgaben liegen als Markdown-Dokumente im Repository und koennen
+dadurch einfach gepflegt, erweitert und versioniert werden.
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+## Kurzfazit
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Die CoDrone DHBW Website ist eine kompakte, praxisorientierte Lernumgebung,
+die Unterrichtsmaterial, Aufgabenstruktur und Loesungen in einer einheitlichen
+Plattform zusammenfuehrt.
