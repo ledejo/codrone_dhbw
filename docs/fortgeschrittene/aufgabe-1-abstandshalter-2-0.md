@@ -10,7 +10,7 @@ Die Drohne soll mit dem Front-Range-Sensor einen konstanten Abstand zu einem Hin
 
 1. Startet die Drohne.
 2. Messt wiederholt den Abstand nach vorne mit `get_front_range("cm")`.
-3. Haltet den Zielabstand von 60 cm fuer 12 Sekunden:
+3. Haltet den Zielabstand von 60 cm für 12 Sekunden:
 - Ist der Abstand zu gross, fliegt kurz vorwärts.
 - Ist der Abstand zu klein, fliegt kurz rückwärts.
 - Liegt der Abstand in der Toleranz, schwebt.
