@@ -5,16 +5,16 @@ sidebar_position: 1
 # Teambuilding
 Bevor wir die Motoren starten, muessen wir die Kommunikation zwischen eurem Computer und der Drohne testen.
 
-Das Ziel dieser Aufgabe ist es, der Drohne eine eigene Identitaet zu geben: Eure Teamfarbe.
+Das Ziel dieser Aufgabe ist es, der Drohne eine eigene Identität zu geben: Eure Teamfarbe.
 
 ## Aufgabenstellung
 Sucht euch in der Gruppe eine Teamfarbe aus. Eure Drohne soll diese Farbe nach dem Starten dauerhaft anzeigen.
 
-Schritt fuer Schritt Anleitung:
+Schritt für Schritt Anleitung:
 
-1. Oeffne die Robolink Web-IDE.
+1. Öffne die Robolink Web-IDE.
 2. Verbinde deinen Controller per USB.
-3. Kopiere den folgenden Code in den Editor und passt die Werte fuer eure Farbe an.
+3. Kopiere den folgenden Code in den Editor und passt die Werte für eure Farbe an.
 
 ```python
 from codrone_edu.drone import *
@@ -29,6 +29,6 @@ drone.disconnect()
 ```
 
 ## Das RGB-Farbsystem
-Die Drohne nutzt das RGB-Farbsystem. Ihr koennt jede beliebige Farbe mischen, indem ihr die drei Zahlen (R,G,B) in der Funktion `set_drone_LED(R,G,B,Helligkeit)` im Code anpasst (nur Werte zwischen 0 und 255 sind zulaessig).
+Die Drohne nutzt das RGB-Farbsystem. Ihr könnt jede beliebige Farbe mischen, indem ihr die drei Zahlen (R,G,B) in der Funktion `set_drone_LED(R,G,B,Helligkeit)` im Code anpasst (nur Werte zwischen 0 und 255 sind zulaessig).
 
-Eine einfache Moeglichkeit die Farben mit den RGB-Werten zu sehen findet ihr hier: https://rgbcolorpicker.com/
+Eine einfache Möglichkeit die Farben mit den RGB-Werten zu sehen findet ihr hier: https://rgbcolorpicker.com/

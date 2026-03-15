@@ -2,15 +2,15 @@
 sidebar_position: 9
 ---
 
-# Final Challenge: Praezisionsflug
-In dieser letzten Aufgabe bestimmt ihr, wohin die Drohne fliegt. Es geht um Praezision und Schnelligkeit.
+# Final Challenge: Präzisionsflug
+In dieser letzten Aufgabe bestimmt ihr, wohin die Drohne fliegt. Es geht um Präzision und Schnelligkeit.
 
 ## Aufgabenstellung: Punktlandung
 Platziert in ca. 2 Metern Entfernung ein Ziel (z. B. ein Blatt Papier). Eure Drohne soll:
 
 1. Starten und kurz schweben.
 2. Das Ziel auf direktem Weg ansteuern.
-3. Moeglichst genau auf dem Ziel landen.
+3. Möglichst genau auf dem Ziel landen.
 
 ### Wichtige Funktionen
 Nutzt die Funktion `drone.go()` mit passenden Richtungen, Power und Zeiten.

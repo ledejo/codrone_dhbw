@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Praezisionsnavigation
+# Präzisionsnavigation
 
 In dieser Aufgabe steuert ihr die Drohne mit Positionsdaten statt nur mit Zeitwerten.
 
@@ -25,52 +25,3 @@ Schreibt diese zwischen `drone.pair()` und `drone.close()`.
 - `drone.hover(seconds)`
 - `drone.land()`
 - `drone.close()`
-
-## Beispielcode
-
-```python
-from codrone_edu.drone import *
-import time
-
-TARGET_X = 80
-TARGET_Y = -40   # negatives Y ist rechts
-TOL = 15
-POWER = 20
-STEP = 0.2
-TIMEOUT = 20
-
-drone = Drone()
-drone.pair()
-
-drone.takeoff()
-time.sleep(1)
-
-x0 = drone.get_pos_x("cm")
-y0 = drone.get_pos_y("cm")
-
-start = time.time()
-while time.time() - start < TIMEOUT:
-    x = drone.get_pos_x("cm") - x0
-    y = drone.get_pos_y("cm") - y0
-
-    dx = TARGET_X - x
-    dy = TARGET_Y - y
-
-    if abs(dx) <= TOL and abs(dy) <= TOL:
-        drone.hover(1)
-        break
-
-    if abs(dx) >= abs(dy):
-        if dx > TOL:
-            drone.go("forward", POWER, STEP)
-        elif dx < -TOL:
-            drone.go("backward", POWER, STEP)
-    else:
-        if dy > TOL:
-            drone.go("left", POWER, STEP)
-        elif dy < -TOL:
-            drone.go("right", POWER, STEP)
-
-drone.land()
-drone.close()
-```

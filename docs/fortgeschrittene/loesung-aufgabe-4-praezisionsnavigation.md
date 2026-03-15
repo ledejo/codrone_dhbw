@@ -2,14 +2,14 @@
 sidebar_position: 14
 ---
 
-# Lösung: Praezisionsnavigation
+# Lösung: Präzisionsnavigation
 
 ```python
 from codrone_edu.drone import *
 import time
 
 TARGET_X = 80
-TARGET_Y = -40
+TARGET_Y = 80
 TOL = 15
 
 drone = Drone()
@@ -35,14 +35,14 @@ while time.time() - start < 20:
 
     if abs(dx) >= abs(dy):
         if dx > TOL:
-            drone.go("forward", 20, 0.2)
+            drone.go("forward", 40, 0.2)
         elif dx < -TOL:
-            drone.go("backward", 20, 0.2)
+            drone.go("backward", 40, 0.2)
     else:
         if dy > TOL:
-            drone.go("left", 20, 0.2)
+            drone.go("left", 40, 0.2)
         elif dy < -TOL:
-            drone.go("right", 20, 0.2)
+            drone.go("right", 40, 0.2)
 
 drone.land()
 drone.close()

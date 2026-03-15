@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Lösung: Flugmanoever und Akrobatik
+# Lösung: Flugmanöver und Akrobatik
 
 ## Quadrat
 ```python

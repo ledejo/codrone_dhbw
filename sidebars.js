@@ -120,8 +120,8 @@ const sidebars = {
           type: 'category',
           label: 'Aufgabe 11',
           items: [
-            'fortgeschrittene/aufgabe-6-sensorfusion-telemetrie-challenge',
-            'fortgeschrittene/loesung-aufgabe-6-sensorfusion-telemetrie-challenge',
+            'fortgeschrittene/aufgabe-6-multisensor-distanzwarnung',
+            'fortgeschrittene/loesung-aufgabe-6-multisensor-distanzwarnung',
           ],
         },
       ],
@@ -129,18 +129,6 @@ const sidebars = {
     'fragebogen',
   ],
 
-  // But you can create a sidebar manually
-  /*
-  tutorialSidebar: [
-    'intro',
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-   */
 };
 
 export default sidebars;

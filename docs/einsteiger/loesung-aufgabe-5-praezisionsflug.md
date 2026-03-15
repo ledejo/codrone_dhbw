@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# Lösung: Final Challenge - Praezisionsflug
+# Lösung: Final Challenge - Präzisionsflug
 
 ```python
 from codrone_edu.drone import *

@@ -3,7 +3,7 @@ sidebar_position: 11
 ---
 
 # Zusatzaufgabe: Parcour
-Es gibt noch zahlreiche Funktionen und Moeglichkeiten die Drohne zu steuern. In dieser Zusatzaufgabe koennt ihr die Drohne durch einen Parcour manoevrieren.
+Es gibt noch zahlreiche Funktionen und Möglichkeiten die Drohne zu steuern. In dieser Zusatzaufgabe könnt ihr die Drohne durch einen Parcour manövrieren.
 
 ### Mögliche Funktionen
 `drone.turn_left()`

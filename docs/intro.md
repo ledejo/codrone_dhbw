@@ -32,7 +32,7 @@ Python an sich ist schon sehr intuitiv, die Web-IDE von Robolink setzt für die 
 ## Euer Werkzeug: Die Web-IDE
 Wir arbeiten komplett im Web-Browser. Ihr müsst nichts installieren. Ich empfehle euch Google Chrome.
 
-Die **Robolink* Web-IDE findet ihr hier: [Web-IDE](https://codrone.robolink.com/edu/python/).
+Die **Robolink** Web-IDE findet ihr hier: [Web-IDE](https://codrone.robolink.com/edu/python/).
 
 Verbindet eure Drohne über den Button **"Connect"** unten links.
 
@@ -40,3 +40,9 @@ Klickt auf **"Run"**, um euren Flug zu starten.
 
 Für eine kontrollierte Landung nutzt bitte entweder den Befehl `drone.land()` im Code oder den Button "Land" oben in der Web-IDE. Drückt ihr den Button **"Stop"** gehen die Rotoren aus und die Drohne stürzt ab. Sie ist zwar robust gebaut und geht nicht sofort kaputt, nutzt diese Funktion aber wirklich nur im Notfall!
 
+
+## Erklärungen zu Funktionen der CoDroneEDU
+
+Um die genauen Parameter und die funktionsweise der einzelnen Funktionen besser zu verstehen bietet es sich an, die [Dokumentation von Robolink](https://docs.robolink.com/docs/CoDroneEDU/Python/Drone-Function-Documentation/) zu lesen. Dort findet ihr detaillierte Erklärungen zu den einzelnen Funktionen. 
+
+Für die Bearbeitung der **Fortgeschrittenen** Aufgaben sind weitergehende Programmierkenntnisse erforderlich. Insbesondere Schleifen, Bedingungen und Konstantenvariablen sind vorausgesetzt. Schaut euch dazu gerne nochmal den [Python Guide der W3-Schools an](https://www.w3schools.com/python/default.asp). Hier findet ihr alles was ihr braucht und wissen müsst.
